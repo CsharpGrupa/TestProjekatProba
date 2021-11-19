@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b5c9ee00f396475aab5be21d34626991" Name="Diagram1">
+        <EntityTypeShape EntityType="TEST_DOOModel.User" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Employee" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Category" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Product" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Supplier" Width="1.5" PointX="0.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Customer" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.OrderDetail" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Shipper" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.EmpOrder" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TEST_DOOModel.OrderValue" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TEST_DOOModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TEST_DOOModel.Zaposleni" Width="1.5" PointX="8.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
